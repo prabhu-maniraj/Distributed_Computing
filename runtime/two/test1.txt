@@ -1,0 +1,18 @@
+** starting server from /home/nishanth/workspace/275/poke-netty3 **
+poke home = /home/nishanth/workspace/275/poke-netty3
+
+** config: server0.conf **
+
+node is0
+---> Server.startManagers() expecting 1 connections
+
+TODO HB QUEUES SHOULD BE SHARED!
+
+Inside channelread0 ...
+inside run method
+Inside while of inbound app worker
+Putting the req in the inbound queue
+Ping resource is executed
+Sending request received to all the other nodes in my cluster
+Connecting to localhost
+Server Initializer
